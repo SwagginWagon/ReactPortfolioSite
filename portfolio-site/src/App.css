@@ -4,12 +4,12 @@
   height: 40px;
 }
 
-nav a {
+nav a.nav-link {
   color: #00c9ff;
   font-weight: bold;
 }
 
-nav a:hover {
+nav a.nav-link:hover {
   color: #00ffb6;
 }
 /* End Nav */
@@ -44,7 +44,7 @@ nav a:hover {
 /* End Intro Section */
 
 /* About Section */
-#about-section {
+#career-section {
   padding: 3em 0;
   background-color: #00ffb6;
   position: relative;
@@ -77,14 +77,13 @@ nav a:hover {
 
 #portfolio-section a .portfolio-img-overlay {
   position: absolute;
-  transition: all .2 ease-in-out;
   bottom: 0;
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 201, 255, 0.8);
   opacity: 0;
   border-radius: 2rem;
   font-size: 20px;
-  padding: 20px;
+  padding: 30px;
   text-align: center;
   display: flex;
   justify-content: center;
@@ -96,7 +95,6 @@ nav a:hover {
 }
 
 #portfolio-section a .overlay-text {
-  display: none;
   justify-content: center;
   align-items: center;
   position: absolute;
@@ -122,12 +120,12 @@ footer {
   color: #ffffff;
 }
 
-footer a {
+footer a.nav-link {
   color: #ffffff;
   font-weight: bold;
 }
 
-footer a:hover {
+footer a.nav-link:hover {
   color: #00ffb6;
 }
 /* End Footer Section */

@@ -1,4 +1,5 @@
 import React from "react";
+import { Scrollchor } from "react-scrollchor";
 import NavLogo from "../assets/images/nav-logo.jpg";
 
 const Navbar = () => {
@@ -15,10 +16,10 @@ const Navbar = () => {
                     <div className="col-8">
                         <ul className="nav justify-content-end">
                             <li className="nav-item">
-                                <a className="nav-link" href="#career-section">Dev Career</a>
+                                <Scrollchor className="nav-link" to="#career-section">Career</Scrollchor>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="#portfolio-section">Portfolio</a>
+                                <Scrollchor className="nav-link" to="#portfolio-section">Portfolio</Scrollchor>
                             </li>
                         </ul>
                     </div>
