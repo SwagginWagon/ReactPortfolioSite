@@ -4,6 +4,7 @@ import RJMImg from "../assets/images/rjm.marketing_min.png";
 import EJImg from "../assets/images/experiencejackson.com_min.png";
 import AEImg from "../assets/images/www.aladdinjackson.com_min.png";
 import LJRImg from "../assets/images/www.ljross.com_min.png";
+import FCImg from "../assets/images/frankenmuthcertified.com_min.png"
 
 const PortfolioSection = () => {
     return (
@@ -24,6 +25,10 @@ const PortfolioSection = () => {
                     <div className="col d-flex flex-column">
                         <Project url="http://www.aladdinjackson.com" image={AEImg} alt="Aladdin Electric Website" overlay="Aladdin Electric" />
                         <Project url="http://www.ljross.com" image={LJRImg} alt="LJ Ross Website" overlay="LJ Ross" />
+                    </div>
+
+                    <div className="col d-flex flex-column">
+                        <Project url="http://frankenmuthcertified.com"image={FCImg} alt="Frankenmuth Certified Website" overlay="Frankenmuth Certified" />
                     </div>
                 </div>
             </div>
