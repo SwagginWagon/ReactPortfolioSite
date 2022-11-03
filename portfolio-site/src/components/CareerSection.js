@@ -10,7 +10,7 @@ const CareerSection = () => {
                     </div>
                 </div>
                 <div className="row mt-4">
-                    <div className="col">
+                    <div className="col-12 col-md-6">
                         <h3>Software Developer at Roadload, Inc.</h3>
                         <p>
                             As a software developer for Roadload I develop features for a website and an iOS app.
@@ -19,7 +19,7 @@ const CareerSection = () => {
                         </p>
                     </div>
 
-                    <div className="col">
+                    <div className="col-12 col-md-6">
                         <h3>Web Developer at RJM</h3>
                         <p>
                             I worked as a web developer for RJM from June 2019 to August 2020.
