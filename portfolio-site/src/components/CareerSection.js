@@ -11,9 +11,9 @@ const CareerSection = () => {
                         </div>
                     </div>
                     <div className="row mt-4">
-                        <div class="col-12">
-                            <p class="year-range">2020-2022</p>
-                            <h3 class="career-position">Software Developer at Roadload, Inc.</h3>
+                        <div className="col-12">
+                            <p className="year-range">2020-2022</p>
+                            <h3 className="career-position">Software Developer at Roadload, Inc.</h3>
                             <p>
                                 As a software developer for Roadload I develop features for a website and an iOS app.
                                 I use C#/.Net, JavaScript/JQuery, Swift/SwiftUI on a daily basis. The project is a 
@@ -23,9 +23,9 @@ const CareerSection = () => {
 
                         <hr />
 
-                        <div class="col-12">
-                            <p class="year-range">2019-2020</p>
-                            <h3 class="career-position">Web Developer at RJM</h3>
+                        <div className="col-12">
+                            <p className="year-range">2019-2020</p>
+                            <h3 className="career-position">Web Developer at RJM</h3>
                             <p>
                                 I worked as a web developer for RJM from June 2019 to August 2020.
                                 There I worked alongside a fantastic graphic design team to build
