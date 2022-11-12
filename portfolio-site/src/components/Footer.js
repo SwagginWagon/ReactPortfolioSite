@@ -6,10 +6,10 @@ const Footer = () => {
         <>
             <footer>
                 <div className="container-fluid">
-                    <div className="row">
+                    <div className="row align-items-center">
                         <div className="col-12 col-md-4">
                             <nav>
-                                <ul className="nav justify-content-start">
+                                <ul className="nav">
                                     <li className="nav-item">
                                         <Scrollchor className="nav-link" to="">Home</Scrollchor>
                                     </li>
@@ -23,7 +23,7 @@ const Footer = () => {
                             </nav>
                         </div>
 
-                        <div className="col-12 col-md-8 d-flex justify-content-end align-items-center">
+                        <div className="col-12 col-md-8" id="copyright-container">
                             <small>Copyright © <span id="copyright-year"></span> Dylan Wagner</small>
                         </div>
                     </div>

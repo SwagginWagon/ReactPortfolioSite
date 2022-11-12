@@ -1,22 +1,35 @@
 /* Nav */
-#nav-logo {
-  width: 40px;
-  height: 40px;
+#main-nav {
+  background-color: rgb(86 86 86);
 }
 
-nav a.nav-link {
+#main-nav #brand-container {
+  justify-content: center;
+}
+
+#main-nav .nav {
+  justify-content: end;
+}
+
+nav a {
   color: #00c9ff;
   font-weight: bold;
+  font-family: 'Quicksand', sans-serif;
 }
 
-nav a.nav-link:hover {
+nav a:hover {
   color: #00ffb6;
+  font-family: 'Quicksand', sans-serif;
+}
+
+nav .navbar-brand {
+  font-size: 1rem;
 }
 /* End Nav */
 
 /* Intro Section */
 #intro-section {
-  height: 100vh;
+  margin: 15em 0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -45,15 +58,18 @@ nav a.nav-link:hover {
 
 /* About Section */
 #career-section {
-  padding: 3em 0;
-  background-color: #00ffb6;
+  margin: 15em 0;
   position: relative;
+}
+
+#career-section .career-position {
+  font-family: 'Quicksand', sans-serif;
 }
 /* End About Section */
 
 /* Portfolio Section */
 #portfolio-section {
-  padding: 3em 0;
+  padding: 15em 0;
 }
 
 #portfolio-section a {
@@ -120,18 +136,54 @@ footer {
   color: #ffffff;
 }
 
-footer a.nav-link {
+footer a {
   color: #ffffff;
   font-weight: bold;
 }
 
-footer a.nav-link:hover {
+footer a:hover {
   color: #00ffb6;
+}
+
+footer nav {
+  display: flex;
+  justify-content: start;
+}
+
+footer #copyright-container {
+  display: flex;
+  justify-content: end;
 }
 /* End Footer Section */
 
 /* General */
 .blue-text {
   color: #00c9ff;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.year-range {
+  opacity: 0.5;
+}
+
+hr {
+  width: 90%;
+  border-width: 2px;
+  border-color: #00c9ff;
+}
+
+body {
+  background-color: rgb(242, 242, 242);
 }
 /* End General */
+
+@media (max-width: 767px) {
+  #main-nav .nav, #main-nav #brand-container {
+      justify-content: center;
+      text-align: center;
+  }
+
+  footer nav, footer #copyright-container {
+      justify-content: center;
+  }
+}

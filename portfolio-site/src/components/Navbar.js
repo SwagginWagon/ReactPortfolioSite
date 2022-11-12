@@ -1,20 +1,17 @@
 import React from "react";
 import { Scrollchor } from "react-scrollchor";
-import NavLogo from "../assets/images/nav-logo.jpg";
 
 const Navbar = () => {
     return (
-        <nav>
-            <div className="container mt-2">
-                <div className="row">
-                    <div className="col-4">
-                        <div className="navbar-brand">
-                            <img src={NavLogo} alt="Personal logo" id="nav-logo" />
-                        </div>
+        <nav id="main-nav">
+            <div className="container">
+                <div className="row align-items-center">
+                    <div className="col-12 col-md-4" id="brand-container">
+                        <p>Dylan Wagner</p>
                     </div>
 
-                    <div className="col-8">
-                        <ul className="nav justify-content-end">
+                    <div className="col-12 col-md-8">
+                        <ul className="nav">
                             <li className="nav-item">
                                 <Scrollchor className="nav-link" to="#career-section">Career</Scrollchor>
                             </li>

@@ -7,12 +7,13 @@ const CareerSection = () => {
                 <div className="container">
                     <div className="row">
                         <div className="col">
-                            <h2 className="text-center"><b>Quick Dev Career Overview</b></h2>
+                            <h2 className="blue-text text-center"><b>Quick Dev Career Overview</b></h2>
                         </div>
                     </div>
                     <div className="row mt-4">
-                        <div className="col-12 col-md-6">
-                            <h3>Software Developer at Roadload, Inc.</h3>
+                        <div class="col-12">
+                            <p class="year-range">2020-2022</p>
+                            <h3 class="career-position">Software Developer at Roadload, Inc.</h3>
                             <p>
                                 As a software developer for Roadload I develop features for a website and an iOS app.
                                 I use C#/.Net, JavaScript/JQuery, Swift/SwiftUI on a daily basis. The project is a 
@@ -20,8 +21,11 @@ const CareerSection = () => {
                             </p>
                         </div>
 
-                        <div className="col-12 col-md-6">
-                            <h3>Web Developer at RJM</h3>
+                        <hr />
+
+                        <div class="col-12">
+                            <p class="year-range">2019-2020</p>
+                            <h3 class="career-position">Web Developer at RJM</h3>
                             <p>
                                 I worked as a web developer for RJM from June 2019 to August 2020.
                                 There I worked alongside a fantastic graphic design team to build
