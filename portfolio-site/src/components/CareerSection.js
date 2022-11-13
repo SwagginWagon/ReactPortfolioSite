@@ -17,7 +17,7 @@ const CareerSection = () => {
           };
 
           setY(window.scrollY);
-        }, [y]
+        }, [y, roadload, rjm]
     );
 
     useEffect(() => {
