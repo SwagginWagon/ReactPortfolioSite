@@ -69,6 +69,17 @@ nav p {
 #career-section .career-position {
   font-family: 'Quicksand', sans-serif;
 }
+
+#career-section #roadload {
+  transition: 1.5s ease-in;
+  transform: translate(-100%);
+}
+
+#career-section #rjm {
+  text-align: end;
+  transition: 1.5s ease-in;
+  transform: translate(100%);
+}
 /* End About Section */
 
 /* Portfolio Section */
@@ -91,7 +102,7 @@ nav p {
   transition: all .2s ease-in-out;
 }
 
-#portfolio-section a:hover .portfolio-img { 
+#portfolio-section a:hover .portfolio-img, #portfolio-section a:hover .portfolio-img-overlay { 
   transform: scale(1.05); 
 }
 
@@ -99,6 +110,7 @@ nav p {
   position: absolute;
   bottom: 0;
   width: 100%;
+  height: 100%;
   background-color: rgba(0, 201, 255, 1);
   opacity: 0;
   border-radius: 2rem;
@@ -108,6 +120,7 @@ nav p {
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: .75s ease-in-out;
 }
 
 #portfolio-section a:hover .portfolio-img-overlay {
@@ -115,6 +128,7 @@ nav p {
 }
 
 #portfolio-section a .overlay-text {
+  display: flex;
   justify-content: center;
   align-items: center;
   position: absolute;

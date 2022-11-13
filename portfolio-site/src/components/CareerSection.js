@@ -1,6 +1,34 @@
-import React from "react";
+import React, { useEffect, useState, useCallback } from "react";
 
 const CareerSection = () => {
+    const [y, setY] = useState(window.scrollY);
+    const roadload = document.getElementById("roadload");
+    const rjm = document.getElementById("rjm");
+
+    const handleNavigation = useCallback(
+        e => {
+          const window = e.currentTarget;
+          if (y >= 150) { 
+            roadload.style.transform = "translate(0%)";
+          };
+
+          if (y >= 500) {
+              rjm.style.transform = "translate(0%)";
+          };
+
+          setY(window.scrollY);
+        }, [y]
+    );
+
+    useEffect(() => {
+        setY(window.scrollY);
+        window.addEventListener("scroll", handleNavigation);
+      
+        return () => {
+          window.removeEventListener("scroll", handleNavigation);
+        };
+      }, [handleNavigation]);
+
     return (
         <>
             <section id="career-section">
@@ -10,8 +38,8 @@ const CareerSection = () => {
                             <h2 className="blue-text text-center"><b>Quick Dev Career Overview</b></h2>
                         </div>
                     </div>
-                    <div className="row mt-4">
-                        <div className="col-12">
+                    <div className="row mt-4" style={{overflow: "hidden"}}>
+                        <div className="col-12" id="roadload">
                             <p className="year-range">2020-2022</p>
                             <h3 className="career-position">Software Developer at Roadload, Inc.</h3>
                             <p>
@@ -23,7 +51,7 @@ const CareerSection = () => {
 
                         <hr />
 
-                        <div className="col-12">
+                        <div className="col-12" id="rjm">
                             <p className="year-range">2019-2020</p>
                             <h3 className="career-position">Web Developer at RJM</h3>
                             <p>
