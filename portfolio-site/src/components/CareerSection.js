@@ -35,7 +35,7 @@ const CareerSection = () => {
                 <div className="container">
                     <div className="row">
                         <div className="col">
-                            <h2 className="blue-text text-center"><b>Quick Dev Career Overview</b></h2>
+                            <h2 className="blue-text text-center"><b>Developer Careers</b></h2>
                         </div>
                     </div>
                     <div className="row mt-4" style={{overflow: "hidden"}}>

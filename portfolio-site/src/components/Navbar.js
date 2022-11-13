@@ -13,7 +13,7 @@ const Navbar = () => {
                     <div className="col-12 col-md-8">
                         <ul className="nav">
                             <li className="nav-item">
-                                <Scrollchor className="nav-link" to="#career-section">Career</Scrollchor>
+                                <Scrollchor className="nav-link" to="#career-section">Careers</Scrollchor>
                             </li>
                             <li className="nav-item">
                                 <Scrollchor className="nav-link" to="#portfolio-section">Portfolio</Scrollchor>
