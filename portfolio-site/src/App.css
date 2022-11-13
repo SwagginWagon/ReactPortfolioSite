@@ -33,7 +33,7 @@ nav p {
 
 /* Intro Section */
 #intro-section {
-  margin: 15em 0;
+  margin: 20em 0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -48,7 +48,7 @@ nav p {
 }
 
 #intro-section #memoji-pic {
-  height: 150px;
+  height: 200px;
   width: auto;
   border-radius: 25%;
   box-shadow: 0px 5px 7px grey;
@@ -58,11 +58,19 @@ nav p {
 #intro-section #memoji-pic:hover {
   transform: scale(1.05);
 }
+
+#intro-section #name {
+  font-size: calc(4.5rem + .9vw);
+}
+
+#intro-section p {
+  font-size: 1.5rem;
+}
 /* End Intro Section */
 
 /* About Section */
 #career-section {
-  margin: 15em 0;
+  margin: 20em 0;
   position: relative;
 }
 
@@ -73,7 +81,7 @@ nav p {
 
 /* Portfolio Section */
 #portfolio-section {
-  margin: 15em 0;
+  margin: 20em 0;
 }
 
 #portfolio-section a {
@@ -165,6 +173,10 @@ footer #copyright-container {
 .blue-text {
   color: #00c9ff;
   font-family: 'Quicksand', sans-serif;
+}
+
+h2.blue-text {
+  font-size: calc(1.5rem + .9vw);
 }
 
 .year-range {
