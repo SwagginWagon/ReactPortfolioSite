@@ -33,7 +33,7 @@ nav p {
 
 /* Intro Section */
 #intro-section {
-  margin: 15em 0;
+  margin: 10em 0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -58,11 +58,17 @@ nav p {
 #intro-section #memoji-pic:hover {
   transform: scale(1.05);
 }
+
+#intro-section #subtitle {
+  margin-bottom: 0;
+}
 /* End Intro Section */
 
 /* About Section */
 #career-section {
-  margin: 15em 0;
+  margin: 10em 0;
+  padding: 5em 0;
+  background-color: #d7d7d7;
   position: relative;
 }
 
@@ -84,7 +90,7 @@ nav p {
 
 /* Portfolio Section */
 #portfolio-section {
-  margin: 15em 0;
+  margin: 10em 0;
 }
 
 #portfolio-section a {

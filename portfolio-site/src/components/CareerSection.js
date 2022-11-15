@@ -43,8 +43,8 @@ const CareerSection = () => {
                             <p className="year-range">2020-2022</p>
                             <h3 className="career-position">Software Developer at Roadload, Inc.</h3>
                             <p>
-                                As a software developer for Roadload I develop features for a website and an iOS app.
-                                I use C#/.Net, JavaScript/JQuery, Swift/SwiftUI on a daily basis. The project is a 
+                                As a software developer for Roadload I developed features for a website and an iOS app.
+                                I used C#/.Net, JavaScript/JQuery, Swift/SwiftUI on a daily basis. The work was for a 
                                 transportation management platform designed to take place of a traditional vanline.
                             </p>
                         </div>
@@ -55,11 +55,11 @@ const CareerSection = () => {
                             <p className="year-range">2019-2020</p>
                             <h3 className="career-position">Web Developer at RJM</h3>
                             <p>
-                                I worked as a web developer for RJM from June 2019 to August 2020.
-                                There I worked alongside a fantastic graphic design team to build
-                                and maintain websites for clients. I used various content management 
+                                As a web developer for RJM I worked alongside a fantastic graphic design team 
+                                to build and maintain websites for clients. I used various content management 
                                 systems, PHP, JavaScript/JQuery, HTML/CSS, and Bootstrap to craft solutions
-                                for customer needs. I gained experiernce in e-commerce, event websites, and more.
+                                for customer needs. I gained experiernce in e-commerce, event sites, schools, 
+                                finance sites, and more.
                             </p>
                         </div>
                     </div>

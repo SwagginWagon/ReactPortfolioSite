@@ -14,7 +14,7 @@ const IntroSection = () => {
                     <div className="row">
                         <div className="col text-center">
                             <h1 className="blue-text mt-4" id="name"><strong>Dylan Wagner</strong></h1>
-                            <p>Web Developer...App Developer...Software Developer</p>
+                            <p id="subtitle">Web Developer...App Developer...Software Developer</p>
                         </div>
                     </div>
                 </div>
