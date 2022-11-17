@@ -18,17 +18,17 @@ const PortfolioSection = () => {
                     </div>
 
                     <div className="row mt-4">
-                        <div className="col-12 col-md-4 d-flex flex-column">
+                        <div className="col-12 col-md-6 col-lg-4 d-flex flex-column">
                             <Project url="http://rjm.marketing" image={RJMImg} alt="RJM Website" overlay="RJM" />
                             <Project url="http://experiencejackson.com" image={EJImg} alt="Experience Jackson Website" overlay="Experience Jackson" />
                         </div>
 
-                        <div className="col-12 col-md-4 d-flex flex-column">
+                        <div className="col-12 col-md-6 col-lg-4 d-flex flex-column">
                             <Project url="http://www.aladdinjackson.com" image={AEImg} alt="Aladdin Electric Website" overlay="Aladdin Electric" />
                             <Project url="http://www.ljross.com" image={LJRImg} alt="LJ Ross Website" overlay="LJ Ross" />
                         </div>
 
-                        <div className="col-12 col-md-4 d-flex flex-column">
+                        <div className="col-12 col-md-6 col-lg-4 d-flex flex-column">
                             <Project url="http://frankenmuthcertified.com"image={FCImg} alt="Frankenmuth Certified Website" overlay="Frankenmuth Certified" />
                         </div>
                     </div>
