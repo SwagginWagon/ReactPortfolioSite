@@ -1,10 +1,10 @@
 import React from "react";
 import Project from "./Project";
-import RJMImg from "../assets/images/rjm.marketing_min.png";
-import EJImg from "../assets/images/experiencejackson.com_min.png";
-import AEImg from "../assets/images/www.aladdinjackson.com_min.png";
-import LJRImg from "../assets/images/www.ljross.com_min.png";
-import FCImg from "../assets/images/frankenmuthcertified.com_min.png"
+import RJMImg from "../assets/images/rjm.marketing_min.jpg";
+import EJImg from "../assets/images/experiencejackson.com_min.jpg";
+import AEImg from "../assets/images/www.aladdinjackson.com_min.jpg";
+import LJRImg from "../assets/images/www.ljross.com_min.jpg";
+import FCImg from "../assets/images/frankenmuthcertified.com_min.jpg";
 
 const PortfolioSection = () => {
     return (
